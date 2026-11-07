@@ -73,11 +73,6 @@ Prompts were fuzzy-matched against Alpaca-cleaned. Three were close to the same 
 4. **Dolly-15k was clearly the weakest data source.** It produced more loops and missing stop tokens and ignored edit-style instructions.
 5. **Remaining weaknesses are mostly size limits:** exact constraints ("exactly two sentences", "only yes or no"), multi-item classification, factual recall, and occasional repetition loops. A `repetition_penalty` of about 1.1 at inference is a cheap mitigation.
 
-## Pitfalls we hit
-- Doubled `<|im_end|>` followed by junk text: the end token was appended twice (template plus code), and generation did not stop on it. Fix: append it once, and stop with `eos_token_id` set to the `<|im_end|>` token id (or pass `tokenizer=` when using `stop_strings`).
-- Newer `transformers` returns a `BatchEncoding` from `apply_chat_template`, so use `return_dict=True` and call `model.generate(**inputs, ...)`.
-- In the comparison script, a later `model = load_model_and_tokenizer(...)` call silently overwrote the Hugging Face model, so the first "official model" results were really from our own model. Print `model.config._name_or_path` before a run.
-
 ## Limitations
 - Small benchmark, single judge, single greedy generation per prompt.
 - Overlap check catches similar wording only, not paraphrases.
