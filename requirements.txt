@@ -10,4 +10,4 @@ torch # --index-url https://download.pytorch.org/whl/cu130
 transformers[torch]
 accelerate>=1.1.0
 matplotlib
-trl
+streamlit
