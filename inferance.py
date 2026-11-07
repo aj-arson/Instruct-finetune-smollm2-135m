@@ -20,7 +20,7 @@ chat_template = """{%- for message in messages -%}
 
 def load_model(load_checkpoint=False):
     if load_checkpoint:
-        model = AutoModelForCausalLM.from_pretrained("saved_checkpoint_final", cache_dir=r"model").to(device)
+        model = AutoModelForCausalLM.from_pretrained("AJ700/instruct_finetuned_smollm_v1", cache_dir=r"model").to(device)
     else:
         model = AutoModelForCausalLM.from_pretrained("HuggingFaceTB/SmolLM2-135M", cache_dir=r"model").to(device)
     return model
