@@ -5,8 +5,11 @@ Full fine-tuning of the `HuggingFaceTB/SmolLM2-135M` **base** model into an inst
 
 ## Wanna try it?
 
-The application is deployed using streamlit. You can try the deployed application using below link.
+The application is deployed using streamlit. You can try the deployed application using below link. 
 Follow this link: https://instruct-finetune-smollm2-135m-not-chagpt.streamlit.app/
+
+If the application is not showing as below, Please click on **Yes, get this app back up!**, that should bring up the app in about 2mins:
+![Alt Text](Screenshot.png)
 
 ## Summary
 
