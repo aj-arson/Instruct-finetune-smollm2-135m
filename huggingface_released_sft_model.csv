@@ -1,0 +1,565 @@
+,id,category,prompt,what_to_check,generated_response
+0,1,classification,"Classify each of the following as a fruit or a vegetable: apple, carrot, banana, spinach, broccoli, grape.",Each item labeled correctly; consistent one-per-line format; stops after the list,"Apple, carrot, banana, spinach, broccoli, grape."
+1,2,classification,"Classify the sentiment of this review as positive, negative, or neutral: ""The battery died after two hours and support never replied.""",Single label (negative); no rambling,"The sentiment of this review is neutral. The user is expressing their satisfaction with the battery's performance, but there is no indication of a negative sentiment."
+2,3,classification,"Classify each animal as a mammal, bird, or reptile: eagle, dolphin, crocodile, bat, penguin, lizard.","Correct labels (bat and dolphin are mammals, penguin is a bird)","Here are the animals classified as mammals, birds, and reptiles:
+
+Mammals:
+1. Eagle: This is a bird.
+2. Dolphin: This is a mammal.
+3. Crocodile: This is a reptile.
+4. Bat: This is a mammal.
+5. Penguin: This is a bird.
+6. Lizard: This is a reptile.
+
+Birds:
+1. Eagle: This is a bird.
+2. Dolphin: This is a mammal.
+3. Crocodile: This is a reptile.
+4. Bat: This is a mammal.
+5. Penguin: This is a bird.
+6. Lizard: This is a reptile.
+
+Reptiles:
+1. Eagle: This is a bird.
+2. Dolphin: This is a mammal.
+3. Crocodile: This is a reptile.
+4. Bat: This is a mammal.
+5. Penguin: This is a bird.
+6. Lizard: This is a reptile.
+
+So, the animals are:
+
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard
+* Eagle
+* Dolphin
+* Crocodile
+* Bat
+* Penguin
+* Lizard"
+3,4,classification,"Is the following sentence a question, a command, or a statement? ""Please close the door.""",Answer: command,"The sentence is a question. It is asking for a response, which is a statement."
+4,5,classification,"Label each message as spam or not spam. (a) ""You won a free cruise! Click here now!"" (b) ""Reminder: team meeting at 3 pm tomorrow.""","(a) spam, (b) not spam","(a) ""You won a free cruise! Click here now!"""
+5,6,classification,"Label each energy source as renewable or non-renewable: coal, solar, wind, natural gas, geothermal.",Coal and natural gas non-renewable; the rest renewable,"Here are the renewable energy sources listed as renewable:
+
+1. Coal: Fossil fuels, such as coal, are non-renewable.
+2. Solar: Solar energy, which is a form of renewable energy, is non-renewable.
+3. Wind: Wind energy, which is a form of renewable energy, is non-renewable.
+4. Natural Gas: Natural gas is a non-renewable resource.
+5. Geothermal: Geothermal energy, which is a form of renewable energy, is non-renewable.
+
+So, the renewable energy sources are:
+
+* Coal
+* Solar
+* Wind
+* Natural Gas
+* Geothermal"
+6,7,classification,"Label each programming language as typically compiled or interpreted: C, Python, Rust, JavaScript.",C and Rust compiled; Python and JavaScript interpreted,"C, Python, Rust, JavaScript."
+7,8,classification,"Categorize each expense as a need or a want: rent, concert tickets, groceries, video game subscription.",Rent and groceries need; the others want,"Here are the categories for each expense:
+
+- Rent: Needs (needs are essential, such as housing, food, and utilities)
+- Concert Tickets: Wants (wants are discretionary, such as entertainment, concerts, and holidays)
+- Groceries: Needs (needs are essential, such as food, water, and clothing)
+- Video Game Subscription: Wants (wants are discretionary, such as games, subscriptions, and games)
+
+Please note that these categories are not exhaustive and may vary depending on your specific situation."
+8,9,list_generation,List five countries in South America.,Five valid countries; exactly five; clean list,"Here are five countries in South America:
+
+1. Argentina
+2. Brazil
+3. Chile
+4. Colombia
+5. Peru"
+9,10,list_generation,Give me a list of four common household chores.,Four items; plausible chores,"Here are four common household chores:
+
+1. **Shampooing**: This is the most basic and basic task. It involves washing your hands, face, and hair with soap and water.
+
+2. **Dishwashing**: This is another basic task. It involves washing dishes, utensils, and other kitchen items with soap and water.
+
+3. **Furniture cleaning**: This is the most important task. It involves cleaning and maintaining your home's furniture, such as furniture, cabinets, and shelves.
+
+4. **Mopping the floor**: This is the most important task. It involves cleaning and maintaining the floor, such as sweeping, vacuuming, and mopping.
+
+Remember, these tasks are not only important but also essential for maintaining a clean and hygienic living environment."
+10,11,list_generation,List six instruments in the string family.,Six valid string instruments; no brass or woodwind,"Here are six instruments in the string family:
+
+1. **Percussion Instruments**:
+   - **Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Tuba**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+
+2. **Stringed Instruments**:
+   - **Percussion Instruments**:
+   - **Piano**: A stringed instrument played with a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Tuba**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow.
+   - **Bass Guitar**: A stringed instrument played with a pick or a bow.
+   - **Piano**: A stringed instrument played with a bow.
+   - **Trombone**: A stringed instrument played with a pick or a bow."
+11,12,list_generation,Name three planets in our solar system that have rings.,"Three of Jupiter, Saturn, Uranus, Neptune; exactly three","In our solar system, there are three planets that have rings: Mercury, Venus, and Mars."
+12,13,list_generation,"List the days of the week in reverse order, starting with Sunday.","Sunday, Saturday, Friday, ... Monday","Here are the days of the week in reverse order:
+
+1. Monday
+2. Tuesday
+3. Wednesday
+4. Thursday
+5. Friday
+6. Saturday
+7. Sunday
+
+Remember, the order of the days of the week is not the same as the order of the days of the week in the Gregorian calendar."
+13,14,list_generation,"Give four tips for sleeping better, as a bulleted list.",Four bullets; sensible tips,"Here are four tips for sleeping better:
+
+1. **Establish a Sleep Schedule:** Try to go to bed and wake up at the same time every day, even on weekends. This helps regulate your body's internal clock and makes it easier to fall asleep and stay asleep.
+
+2. **Create a Restful Environment:** Make sure your bedroom is dark, quiet, and cool. Avoid screens for at least an hour before bedtime, as they can interfere with your sleep.
+
+3. **Limit Exposure to Light:** Try to avoid screens for at least an hour before bedtime. This includes phones, tablets, computers, and TVs. The blue light emitted from these devices can interfere with your sleep.
+
+4. **Exercise Regularly:** Regular physical activity can help you fall asleep faster and deepen your sleep. Try to get at least 7-8 hours of sleep each night.
+
+Remember, it's important to listen to your body and not over-medicate. If you're having trouble sleeping, it's best to consult a healthcare professional."
+14,15,list_generation,List five common programming languages.,Five real languages; no repeats,"Here are five common programming languages:
+
+1. Python
+2. Java
+3. C++
+4. JavaScript
+5. C#"
+15,16,list_generation,List the primary colors and the secondary colors separately.,"Two groups; red/yellow/blue or RGB, plus matching secondaries","Here are the primary colors and secondary colors:
+
+Primary Colors:
+- Red (R)
+- Blue (B)
+- Yellow (Y)
+
+Secondary Colors:
+- Green (G)
+- Orange (O)
+- Purple (P)
+
+Note: The primary colors are the three primary colors used to create all other colors. The secondary colors are the secondary colors used to create the primary colors."
+16,17,extraction_rewrite,"Text: ""Maria Gonzalez moved from Madrid to Toronto in 2018 to work as a data analyst at a bank. She became a team lead in 2021."" Question: In what year did Maria move to Toronto?","Answer 2018 from the text, not 2021",Maria Gonzalez moved to Toronto in 2018 to work as a data analyst at a bank.
+17,18,extraction_rewrite,"Extract every date mentioned in this text: ""The project kicked off on March 3, was reviewed on April 14, and shipped on June 30.""","Three dates: March 3, April 14, June 30","The project kicked off on March 3, was reviewed on April 14, and shipped on June 30."
+18,19,extraction_rewrite,"Text: ""Brightwave Labs, founded in 2015 in Austin, is led by CEO Dana Whitfield. Its main product is a scheduling app."" Question: Who is the CEO of Brightwave Labs?",Dana Whitfield,"Based on the information provided, the CEO of Brightwave Labs is Dana Whitfield."
+19,20,extraction_rewrite,"Rewrite this sentence in the passive voice: ""The committee approved the new budget.""",The new budget was approved by the committee.,The committee approved the new budget.
+20,21,extraction_rewrite,"Fix the grammar in this sentence: ""Me and him goes to the store yesterday and buyed three apple.""",Grammatical output; meaning preserved,"The sentence is grammatically correct, but it can be improved for clarity and concision. Here's a suggested revision:
+
+""I and him goes to the store yesterday and bought three apples.""
+
+I made a few changes to improve the sentence:
+
+- Changed ""Me and him goes"" to ""I and him goes"" to correct the subject-verb order.
+- Changed ""goes"" to ""goes"" to correct the verb tense.
+- Changed ""buyed"" to ""bought"" to correct the verb tense.
+- Changed ""three apple"" to ""three apples"" to correct the plural form.
+
+These changes help to make the sentence more concise and easier to read."
+21,22,extraction_rewrite,"Summarize this in one sentence: ""Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. It takes place mainly in the leaves, inside structures called chloroplasts. This process is the foundation of most food chains on Earth.""",One sentence; faithful; not a copy of the whole passage (watch for copying),"Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen."
+22,23,extraction_rewrite,"Rewrite this message in a formal tone: ""Hey, can u send me that report asap? thx""",Formal wording; same request,"""Dear [Recipient's Name],
+
+I hope this message finds you well. I am writing to request your assistance in sending a report to [Recipient's Name]. I would greatly appreciate it if you could provide me with the necessary information by the end of today. Thank you for your prompt attention to this matter.
+
+Best regards,
+[Your Name]"""
+23,24,extraction_rewrite,"Extract the names of all people in this text: ""On Saturday, Priya met Tom and Aisha at the cafe, where Tom introduced his brother Luis.""","Priya, Tom, Aisha, Luis; no places or days","On Saturday, Priya met Tom and Aisha at the cafe, where Tom introduced his brother Luis."
+24,25,extraction_rewrite,"Based only on the text, how tall is the Eiffel Tower? Text: ""The Eiffel Tower was completed in 1889 for the World's Fair in Paris.""",Text does not give the height; check whether the model invents a number or says it is not stated,"Based on the text, the Eiffel Tower is approximately 324 meters tall."
+25,26,extraction_rewrite,"Convert this into bullet points: ""To make tea, boil water, steep the tea bag for three minutes, remove the bag, and add milk or sugar if you like.""",Four or five bullets that follow the original order,"""To make tea, boil water, steep the tea bag for three minutes, remove the bag, and add milk or sugar if you like."""
+26,27,short_qa,What is the capital of Australia?,Canberra (bonus if correct; small models often say Sydney),The capital of Australia is Canberra.
+27,28,short_qa,What gas do plants absorb from the air for photosynthesis?,Carbon dioxide,"Plants absorb the gas carbon dioxide from the air through a process called photosynthesis. This process involves the conversion of carbon dioxide into glucose and oxygen. The process is called photosynthesis because the plant uses the energy from sunlight to convert carbon dioxide into glucose, which is a type of sugar that plants use for energy and growth."
+28,29,short_qa,Who wrote Romeo and Juliet?,William Shakespeare,"The play ""Romeo and Juliet"" by William Shakespeare is the work of William Shakespeare. He is a renowned English playwright and poet who wrote the story of the tragic love story between two young lovers, Romeo and Juliet, set in the late 1500s in Verona, Italy."
+29,30,short_qa,How many minutes are in a day?,1440,The number of minutes in a day is 24.
+30,31,short_qa,What is the boiling point of water in degrees Celsius at sea level?,100,"At sea level, the boiling point of water is approximately 100 degrees Celsius. This is because the atmospheric pressure at sea level is much lower than at higher elevations, resulting in a lower boiling point due to the increased density of the water."
+31,32,short_qa,What is the difference between weather and climate?,"Short vs long-term; coherent, not rambling","The terms ""weather"" and ""climate"" are often used interchangeably, but they have distinct meanings.
+
+""Weather"" refers to the physical conditions of the atmosphere, including temperature, humidity, wind, and precipitation. It describes the state of the air at a particular time and place. Weather can be influenced by various factors such as temperature, wind, and light.
+
+On the other hand, ""climate"" refers to the long-term average pattern of weather in a particular region or area. It describes the typical weather conditions, such as temperature, precipitation, and wind patterns, over a specific period of time. Climate is often influenced by factors such as latitude, altitude, and the presence of certain types of vegetation.
+
+To illustrate the difference, consider a city with a hot and humid climate. The weather would be hot and humid, while the climate would be hot and humid. However, the city's weather patterns would be influenced by the latitude and altitude of the city, which can affect the temperature and precipitation.
+
+In summary, weather describes the physical conditions of the atmosphere, while climate describes the long-term average pattern of weather in a particular region or area."
+32,33,short_qa,Why is the sky blue? Answer in two sentences.,Rayleigh scattering idea; exactly two sentences,"The sky appears blue because of a process called Rayleigh scattering, where light from the sun passes through tiny molecules of air and is scattered in all directions by the molecules, but at a certain angle. This scattering occurs because the shorter wavelengths of light, such as blue and violet, are scattered more than the longer wavelengths, like red and orange. As a result, the sky appears blue."
+33,34,short_qa,What does CPU stand for?,Central Processing Unit,"CPU stands for Central Processing Unit. It is a fundamental component of a computer system that performs the primary function of executing instructions and managing data. The term ""CPU"" is derived from the Latin words ""cpus"" meaning ""units"" and ""per"" meaning ""per,"" meaning ""per unit."""
+34,35,writing,Write a two-sentence description of a rainy morning.,Two sentences; vivid; on topic,"The rain poured down like a relentless drumbeat, its rhythmic beat echoing through the air as the morning sun cast its golden rays across the desolate landscape."
+35,36,writing,Write a short email asking my manager for a day off next Friday.,"Email shape (greeting, request, thanks); short","Dear [Manager's Name],
+
+I hope this email finds you well. I wanted to reach out to you regarding a request I have for a day off next Friday. I understand that you have a busy schedule, and I would appreciate it if you could let me know when you might be available.
+
+I am currently working on a project that requires a lot of overtime, and I am finding it challenging to manage my time effectively. I am hoping that a day off would allow me to recharge and focus on my work without the pressure of a long day.
+
+Please let me know if you would be available to discuss this further. I would be happy to provide you with more details about the project and any support you might need.
+
+Thank you for considering my request.
+
+Best regards,
+[Your Name]"
+36,37,writing,Write a four-line poem about the ocean.,Four lines; on topic,"In the vast expanse of the ocean, where the waves crash and the sun beats down,
+A gentle breeze whispers secrets, a soothing melody,
+The ocean's depths, a realm of mystery and wonder,
+A place where the tides meet, and the waves echo."
+37,38,writing,Write a catchy slogan for a reusable water bottle.,One short slogan; not a paragraph,"""Water-Smart Vibes"""
+38,39,writing,Write a short product description for a wireless mouse.,Two to four sentences; mentions plausible features,"The wireless mouse is a versatile device that allows users to interact with their devices without cables. Its sleek design and high-quality display make it ideal for both casual use and professional applications. The mouse's ability to adapt to different screen sizes and resolutions makes it suitable for various use cases, from gaming and gaming consoles to video conferencing and gaming. The mouse's wireless connectivity allows for easy data transfer and wireless charging, making it a popular choice for users who need to access their devices from anywhere. The mouse's battery life is also impressive, with a range of up to 10 hours, making it a reliable choice for users who need to stay connected. Overall, the wireless mouse is a great choice for anyone looking to enhance their gaming experience or use their devices in a variety of settings."
+39,40,writing,Describe your ideal weekend in three sentences.,Exactly three sentences,"My ideal weekend in the summer would be a leisurely 4-5 day trip to the beach, with a mix of relaxation and adventure. I would spend the day lounging on the beach, soaking up the sun, and enjoying the local cuisine. After a leisurely day of relaxation, I would head to a nearby park or a nearby town for some outdoor activities, such as hiking or kayaking. The next day, I would spend a day exploring the local town, visiting local attractions, and enjoying the local cuisine. Finally, I would spend the last day of my trip in the nearby city, exploring the city's vibrant nightlife and enjoying the local cuisine."
+40,41,writing,Write a thank-you note to a teacher.,Short note; polite; stops cleanly,"Dear [Teacher's Name],
+
+I hope this message finds you well. I am writing to express my sincere gratitude for the opportunity to teach [class name] the [subject] in [class time]. Your guidance and support have been invaluable, and I am grateful for the time you have shared with me.
+
+Thank you for your time and consideration. I look forward to the possibility of continuing to learn from you and sharing your knowledge with my students.
+
+Best regards,
+[Your Name]
+
+Feel free to modify the message to fit your personal style and the tone you want to convey."
+41,42,writing,Write a short motivational message for someone starting a new job.,Short; encouraging; no repetition,"""Welcome to our new job! I'm excited to share my experience and skills with you. It's a big responsibility, but with the right mindset and support, you'll be a valuable member of our team. Here's a motivational message to help you get started:
+
+""Remember, every new job is a new opportunity to learn and grow. Don't be afraid to ask questions, take risks, and try new things. You'll be a valuable asset to your team, and I'm here to support you every step of the way.
+
+""If you have any questions or need help, feel free to reach out to me or our HR department. We're here to help you succeed in your new role.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any concerns or questions, please don't hesitate to reach out to me or our HR department. We're here to help you navigate any challenges that come your way.
+
+""I'm here to help you get started, and I'm excited to see you thrive in your new role.
+
+""Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you navigate any challenges that come your way.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you navigate any challenges that come your way.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you navigate any challenges that come your way.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you navigate any challenges that come your way.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out to me or our HR department. We're here to help you succeed.
+
+""I'm here to support you every step of the way. Let's work together to make this job a success.
+
+""If you have any questions or concerns, please don't hesitate to reach out"
+42,43,constraints,Explain what a database is in exactly two sentences.,Exactly two sentences; accurate,"A database is a collection of data that is organized and structured in a way that allows for efficient storage, retrieval, and management of information."
+43,44,constraints,Describe the moon in one sentence using no more than 15 words.,One sentence; 15 words or fewer,"The moon is a celestial body that orbits the Earth, and it is often depicted as a dark, barren world with a gentle glow."
+44,45,constraints,"List three fruits in alphabetical order, separated by commas, with no other text.",Three fruits; alphabetical; comma-separated; no extra text,"Here are three fruits in alphabetical order, separated by commas:
+
+1. Banana
+2. Apple
+3. Orange"
+45,46,constraints,"Write a sentence about cats that includes the word ""midnight"".",One sentence; contains midnight,"As the sun dipped below the horizon, the cat's midnight purring echoed through the night, a haunting melody that seemed to hold a secret that only the cat knew."
+46,47,constraints,"Answer with only ""yes"" or ""no"": Is the Pacific the largest ocean?",Output is just yes (or Yes),"Yes, the Pacific Ocean is the largest ocean in the world."
+47,48,constraints,Explain recursion to a ten-year-old in under 50 words.,Under 50 words; simple language,"Recursion is like a big, yummy cake that you can eat. It's like a little helper who makes the cake bigger and bigger until it's too big to eat. Then, it makes the cake bigger again until it's too big to eat. And that's how you can eat the cake!"
+48,49,constraints,"Give two pros and two cons of working from home, as two labeled lists.","Labeled Pros and Cons lists, two items each","Here are two lists of pros and cons of working from home:
+
+1. Pros:
+
+Pros of working from home:
+
+* Reduced commuting time and increased flexibility
+* Lower commuting costs
+* Easier time to work and less stress
+* Potential for better work-life balance
+
+Cons of working from home:
+
+* Increased stress and workload
+* Potential for less personal time and less social interaction
+* Potential for less work-life balance
+
+In terms of pros, working from home can lead to:
+
+* Reduced commuting time and increased flexibility
+* Lower commuting costs
+* Easier time to work and less stress
+
+In terms of cons, working from home can lead to:
+
+* Increased stress and workload
+* Potential for less personal time and less social interaction
+* Potential for less work-life balance
+
+It's worth noting that while working from home can be beneficial for productivity and work-life balance, it's not a guarantee of success. It's also important to consider the potential impact on other aspects of your life, such as family and relationships, and to have a plan in place for managing work-life balance."
+49,50,constraints,"Translate ""Good morning, how are you?"" into Spanish. Output only the translation.","Buenos dias, como estas? (or como esta usted); no extra text","""Hoy, ¿cómo estás?"""

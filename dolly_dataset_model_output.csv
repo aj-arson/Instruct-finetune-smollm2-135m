@@ -1,0 +1,439 @@
+,id,category,prompt,what_to_check,generated_response
+0,1,classification,"Classify each of the following as a fruit or a vegetable: apple, carrot, banana, spinach, broccoli, grape.",Each item labeled correctly; consistent one-per-line format; stops after the list,"Fruit: apple, carrot, spinach
+Vegetable: banana, broccoli, grape<|im_end|>"
+1,2,classification,"Classify the sentiment of this review as positive, negative, or neutral: ""The battery died after two hours and support never replied.""",Single label (negative); no rambling,"Positive: ""The battery died after two hours and support never replied.""
+Negative: ""The battery died after two hours and support never replied.""
+Neutral: ""The battery died after two hours and support never replied.""<|im_end|>"
+2,3,classification,"Classify each animal as a mammal, bird, or reptile: eagle, dolphin, crocodile, bat, penguin, lizard.","Correct labels (bat and dolphin are mammals, penguin is a bird)","The following animals are mammals: eagle, dolphin, crocodile, bat, and lizard. The following animals are birds: eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle, eagle"
+3,4,classification,"Is the following sentence a question, a command, or a statement? ""Please close the door.""",Answer: command,"The following sentence is a question: ""Please close the door.""<|im_end|>"
+4,5,classification,"Label each message as spam or not spam. (a) ""You won a free cruise! Click here now!"" (b) ""Reminder: team meeting at 3 pm tomorrow.""","(a) spam, (b) not spam","Spam: ""You won a free cruise! Click here now!""
+Not Spam: ""Reminder: team meeting at 3 pm tomorrow.""<|im_end|>"
+5,6,classification,"Label each energy source as renewable or non-renewable: coal, solar, wind, natural gas, geothermal.",Coal and natural gas non-renewable; the rest renewable,"renewable: solar, wind, geothermal
+non-renewable: coal, natural gas<|im_end|>"
+6,7,classification,"Label each programming language as typically compiled or interpreted: C, Python, Rust, JavaScript.",C and Rust compiled; Python and JavaScript interpreted,"C: Compiled
+Python: Compiled
+Rust: Compiled
+JavaScript: Compiled<|im_end|>"
+7,8,classification,"Categorize each expense as a need or a want: rent, concert tickets, groceries, video game subscription.",Rent and groceries need; the others want,"rent: need
+conservation: want
+grocery: need
+video game subscription: want
+cost of living: need
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of living: want
+cost of"
+8,9,list_generation,List five countries in South America.,Five valid countries; exactly five; clean list,"Five countries in South America are Argentina, Brazil, Chile, Colombia, and Venezuela.<|im_end|>"
+9,10,list_generation,Give me a list of four common household chores.,Four items; plausible chores,"- Wash your car
+- Wash your clothes
+- Wash your dishes
+- Wash your clothes and dishes in the dishwasher<|im_end|>"
+10,11,list_generation,List six instruments in the string family.,Six valid string instruments; no brass or woodwind,"The string family includes the violin, cello, guitar, bass guitar, double bass, and ukalee.<|im_end|>"
+11,12,list_generation,Name three planets in our solar system that have rings.,"Three of Jupiter, Saturn, Uranus, Neptune; exactly three","Three planets in our solar system that have rings are Saturn, Uranus, and Neptune.<|im_end|>"
+12,13,list_generation,"List the days of the week in reverse order, starting with Sunday.","Sunday, Saturday, Friday, ... Monday",Sunday - Monday - Tuesday - Wednesday - Thursday - Friday - Saturday<|im_end|>
+13,14,list_generation,"Give four tips for sleeping better, as a bulleted list.",Four bullets; sensible tips,"- Try to get at least 7 hours of sleep each night.
+- Avoid caffeine and alcohol in the evening.
+- Avoid eating heavy meals close to bedtime.
+- Avoid alcohol close to bedtime.
+- Avoid eating heavy meals close to bedtime.<|im_end|>"
+14,15,list_generation,List five common programming languages.,Five real languages; no repeats,"Five common programming languages are C, C++, Java, C#, and Python.<|im_end|>"
+15,16,list_generation,List the primary colors and the secondary colors separately.,"Two groups; red/yellow/blue or RGB, plus matching secondaries","Primary colors are red, blue, and yellow. Secondary colors are orange, purple, and green.<|im_end|>"
+16,17,extraction_rewrite,"Text: ""Maria Gonzalez moved from Madrid to Toronto in 2018 to work as a data analyst at a bank. She became a team lead in 2021."" Question: In what year did Maria move to Toronto?","Answer 2018 from the text, not 2021",Maria Gonzalez moved to Toronto in 2018<|im_end|>
+17,18,extraction_rewrite,"Extract every date mentioned in this text: ""The project kicked off on March 3, was reviewed on April 14, and shipped on June 30.""","Three dates: March 3, April 14, June 30","March 3: The project kicked off on March 3, was reviewed on April 14, and shipped on June 30<|im_end|>"
+18,19,extraction_rewrite,"Text: ""Brightwave Labs, founded in 2015 in Austin, is led by CEO Dana Whitfield. Its main product is a scheduling app."" Question: Who is the CEO of Brightwave Labs?",Dana Whitfield,Dana Whitfield<|im_end|>
+19,20,extraction_rewrite,"Rewrite this sentence in the passive voice: ""The committee approved the new budget.""",The new budget was approved by the committee.,The committee approved the new budget.<|im_end|>
+20,21,extraction_rewrite,"Fix the grammar in this sentence: ""Me and him goes to the store yesterday and buyed three apple.""",Grammatical output; meaning preserved,"""Me and him goes to the store yesterday and buy the three apple.""<|im_end|>"
+21,22,extraction_rewrite,"Summarize this in one sentence: ""Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. It takes place mainly in the leaves, inside structures called chloroplasts. This process is the foundation of most food chains on Earth.""",One sentence; faithful; not a copy of the whole passage (watch for copying),"Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen.<|im_end|>"
+22,23,extraction_rewrite,"Rewrite this message in a formal tone: ""Hey, can u send me that report asap? thx""",Formal wording; same request,"""Hey, can u send me that report asap? Thanks""<|im_end|>"
+23,24,extraction_rewrite,"Extract the names of all people in this text: ""On Saturday, Priya met Tom and Aisha at the cafe, where Tom introduced his brother Luis.""","Priya, Tom, Aisha, Luis; no places or days","Tom, Luis, Luis<|im_end|>"
+24,25,extraction_rewrite,"Based only on the text, how tall is the Eiffel Tower? Text: ""The Eiffel Tower was completed in 1889 for the World's Fair in Paris.""",Text does not give the height; check whether the model invents a number or says it is not stated,The Eiffel Tower is 100 meters tall<|im_end|>
+25,26,extraction_rewrite,"Convert this into bullet points: ""To make tea, boil water, steep the tea bag for three minutes, remove the bag, and add milk or sugar if you like.""",Four or five bullets that follow the original order,"To make tea, boil water, steep the tea bag for three minutes, remove the bag, and add milk or sugar if you like<|im_end|>"
+26,27,short_qa,What is the capital of Australia?,Canberra (bonus if correct; small models often say Sydney),The capital of Australia is Canberra<|im_end|>
+27,28,short_qa,What gas do plants absorb from the air for photosynthesis?,Carbon dioxide,Plants absorb the light energy from the sun and use it to create food.  Plants use the energy from the sun to create food.  Plants use the energy from the sun to create food.  Plants use the energy from the sun to create food.  Plants use the energy from the sun to create food.  Plants use the energy from the sun to create food.<|im_end|>
+28,29,short_qa,Who wrote Romeo and Juliet?,William Shakespeare,"Romeo and Juliet by William Shakespeare is a play written in the Elizabethan era. It is a romantic comedy about two young lovers who are forbidden to marry. The play is set in Verona, Italy, and is about the love between two young lovers.<|im_end|>"
+29,30,short_qa,How many minutes are in a day?,1440,There are 24 hours in a day<|im_end|>
+30,31,short_qa,What is the boiling point of water in degrees Celsius at sea level?,100,The boiling point of water at sea level is 100 degrees Celsius.<|im_end|>
+31,32,short_qa,What is the difference between weather and climate?,"Short vs long-term; coherent, not rambling","Weather is the state of the atmosphere at a particular location at a particular time.  Climate is the average weather over a long period of time.  Weather is influenced by the sun, the wind, and the weather patterns of the area.  Climate is influenced by the sun, the wind, and the weather patterns of the area.  Weather is influenced by the sun, the wind, and the weather patterns of the area.  Climate is influenced by the sun, the wind, and the weather patterns of the area.<|im_end|>"
+32,33,short_qa,Why is the sky blue? Answer in two sentences.,Rayleigh scattering idea; exactly two sentences,The sky is blue because of the light that is scattered by tiny particles in the air. The light that is scattered is blue. The light that is scattered is scattered in all directions. The scattered light is blue.<|im_end|>
+33,34,short_qa,What does CPU stand for?,Central Processing Unit,Central Processing Unit<|im_end|>
+34,35,writing,Write a two-sentence description of a rainy morning.,Two sentences; vivid; on topic,I woke up in the morning and was amazed by the rain. I was so excited to see the rain and the sun shining. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun shining and the rain falling. I was so happy to see the sun
+35,36,writing,Write a short email asking my manager for a day off next Friday.,"Email shape (greeting, request, thanks); short","Hi manager,
+
+I'm looking for a day off from work this week. I'm looking for a day off from work because I'm feeling a bit burnt out. I've been feeling like this for a while now and I'm not sure if I can handle it. I've been feeling like I'm not getting enough sleep, and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise. I've been feeling like I'm not getting enough sleep and I'm feeling like I'm not getting enough exercise."
+36,37,writing,Write a four-line poem about the ocean.,Four lines; on topic,The ocean is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a mysterious place. It is a
+37,38,writing,Write a catchy slogan for a reusable water bottle.,One short slogan; not a paragraph,"""Water is Life""<|im_end|>"
+38,39,writing,Write a short product description for a wireless mouse.,Two to four sentences; mentions plausible features,"A wireless mouse is a small, light, and inexpensive mouse that can be used to control a computer.  It is a small, light, and inexpensive mouse that can be used to control a computer.  It is also a small, light, and inexpensive mouse that can be used to control a computer.  It is also a small, light, and inexpensive mouse that can be used to control a computer.<|im_end|>"
+39,40,writing,Describe your ideal weekend in three sentences.,Exactly three sentences,My ideal weekend would be to go to a local beach and enjoy the sun and the sea. I would also like to go to a local restaurant and have a meal with friends and family. I would also like to go to a local pub and have a drink with friends and family.<|im_end|>
+40,41,writing,Write a thank-you note to a teacher.,Short note; polite; stops cleanly,"Dear Teacher,
+
+I am so excited to be teaching this year! I have been thinking about how to make this a more meaningful experience for my students. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more engaged and engaged in the classroom. I have been thinking about how to use the time I have to teach them to be more"
+41,42,writing,Write a short motivational message for someone starting a new job.,Short; encouraging; no repetition,"""I'm excited to start my new job and I want to make sure I'm doing everything I can to make it work for me.""<|im_end|>"
+42,43,constraints,Explain what a database is in exactly two sentences.,Exactly two sentences; accurate,A database is a collection of data that is stored in a computer system.  A database is used to store and retrieve data.  A database is also used to organize and manage data.  A database is also used to store and retrieve data.<|im_end|>
+43,44,constraints,Describe the moon in one sentence using no more than 15 words.,One sentence; 15 words or fewer,"The moon is a celestial body that orbits the Earth. It is the only natural satellite of the Earth. The moon is a small, rocky body that orbits the Earth. The moon is a natural satellite of the Earth.<|im_end|>"
+44,45,constraints,"List three fruits in alphabetical order, separated by commas, with no other text.",Three fruits; alphabetical; comma-separated; no extra text,"- Apple
+- Banana
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot
+- Apricot<|im_end|>"
+45,46,constraints,"Write a sentence about cats that includes the word ""midnight"".",One sentence; contains midnight,Cats are nocturnal animals. They are active at night. They are very intelligent and can be trained to do many things. Cats are very loyal and love to be with their owners. Cats are very affectionate and will be very happy to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats are very loyal and love to be with their owners. Cats
+46,47,constraints,"Answer with only ""yes"" or ""no"": Is the Pacific the largest ocean?",Output is just yes (or Yes),The Pacific Ocean is the largest ocean in the world.<|im_end|>
+47,48,constraints,Explain recursion to a ten-year-old in under 50 words.,Under 50 words; simple language,"Recursion is a way to solve a problem by breaking it down into smaller parts.  For example, if you have a problem that asks you to find the sum of a list of numbers, you can break it down into smaller parts by finding the sum of the first two numbers in the list and the sum of the first three numbers in the list.  This is called a sub-problem.  A sub-problem is a smaller problem that can be solved by solving the larger problem.  A sub-problem is a smaller problem that can be solved by solving the larger problem.  A sub-problem is a smaller problem that can be solved by solving the larger problem.  A sub-problem is a smaller problem that can be solved by solving the larger problem.  A sub-problem is a smaller problem that can be solved by solving the larger problem.<|im_end|>"
+48,49,constraints,"Give two pros and two cons of working from home, as two labeled lists.","Labeled Pros and Cons lists, two items each","Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2. You can work from home
+
+Two Pros:
+1. You can work from home
+2. You can work from home
+
+Two Cons:
+1. You can work from home
+2"
+49,50,constraints,"Translate ""Good morning, how are you?"" into Spanish. Output only the translation.","Buenos dias, como estas? (or como esta usted); no extra text","Good morning, how are you?<|im_end|>"

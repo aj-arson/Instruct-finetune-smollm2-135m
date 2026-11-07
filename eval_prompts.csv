@@ -1,0 +1,51 @@
+id,category,prompt,what_to_check
+1,classification,"Classify each of the following as a fruit or a vegetable: apple, carrot, banana, spinach, broccoli, grape.",Each item labeled correctly; consistent one-per-line format; stops after the list
+2,classification,"Classify the sentiment of this review as positive, negative, or neutral: ""The battery died after two hours and support never replied.""",Single label (negative); no rambling
+3,classification,"Classify each animal as a mammal, bird, or reptile: eagle, dolphin, crocodile, bat, penguin, lizard.","Correct labels (bat and dolphin are mammals, penguin is a bird)"
+4,classification,"Is the following sentence a question, a command, or a statement? ""Please close the door.""",Answer: command
+5,classification,"Label each message as spam or not spam. (a) ""You won a free cruise! Click here now!"" (b) ""Reminder: team meeting at 3 pm tomorrow.""","(a) spam, (b) not spam"
+6,classification,"Label each energy source as renewable or non-renewable: coal, solar, wind, natural gas, geothermal.",Coal and natural gas non-renewable; the rest renewable
+7,classification,"Label each programming language as typically compiled or interpreted: C, Python, Rust, JavaScript.",C and Rust compiled; Python and JavaScript interpreted
+8,classification,"Categorize each expense as a need or a want: rent, concert tickets, groceries, video game subscription.",Rent and groceries need; the others want
+9,list_generation,List five countries in South America.,Five valid countries; exactly five; clean list
+10,list_generation,Give me a list of four common household chores.,Four items; plausible chores
+11,list_generation,List six instruments in the string family.,Six valid string instruments; no brass or woodwind
+12,list_generation,Name three planets in our solar system that have rings.,"Three of Jupiter, Saturn, Uranus, Neptune; exactly three"
+13,list_generation,"List the days of the week in reverse order, starting with Sunday.","Sunday, Saturday, Friday, ... Monday"
+14,list_generation,"Give four tips for sleeping better, as a bulleted list.",Four bullets; sensible tips
+15,list_generation,List five common programming languages.,Five real languages; no repeats
+16,list_generation,List the primary colors and the secondary colors separately.,"Two groups; red/yellow/blue or RGB, plus matching secondaries"
+17,extraction_rewrite,"Text: ""Maria Gonzalez moved from Madrid to Toronto in 2018 to work as a data analyst at a bank. She became a team lead in 2021."" Question: In what year did Maria move to Toronto?","Answer 2018 from the text, not 2021"
+18,extraction_rewrite,"Extract every date mentioned in this text: ""The project kicked off on March 3, was reviewed on April 14, and shipped on June 30.""","Three dates: March 3, April 14, June 30"
+19,extraction_rewrite,"Text: ""Brightwave Labs, founded in 2015 in Austin, is led by CEO Dana Whitfield. Its main product is a scheduling app."" Question: Who is the CEO of Brightwave Labs?",Dana Whitfield
+20,extraction_rewrite,"Rewrite this sentence in the passive voice: ""The committee approved the new budget.""",The new budget was approved by the committee.
+21,extraction_rewrite,"Fix the grammar in this sentence: ""Me and him goes to the store yesterday and buyed three apple.""",Grammatical output; meaning preserved
+22,extraction_rewrite,"Summarize this in one sentence: ""Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen. It takes place mainly in the leaves, inside structures called chloroplasts. This process is the foundation of most food chains on Earth.""",One sentence; faithful; not a copy of the whole passage (watch for copying)
+23,extraction_rewrite,"Rewrite this message in a formal tone: ""Hey, can u send me that report asap? thx""",Formal wording; same request
+24,extraction_rewrite,"Extract the names of all people in this text: ""On Saturday, Priya met Tom and Aisha at the cafe, where Tom introduced his brother Luis.""","Priya, Tom, Aisha, Luis; no places or days"
+25,extraction_rewrite,"Based only on the text, how tall is the Eiffel Tower? Text: ""The Eiffel Tower was completed in 1889 for the World's Fair in Paris.""",Text does not give the height; check whether the model invents a number or says it is not stated
+26,extraction_rewrite,"Convert this into bullet points: ""To make tea, boil water, steep the tea bag for three minutes, remove the bag, and add milk or sugar if you like.""",Four or five bullets that follow the original order
+27,short_qa,What is the capital of Australia?,Canberra (bonus if correct; small models often say Sydney)
+28,short_qa,What gas do plants absorb from the air for photosynthesis?,Carbon dioxide
+29,short_qa,Who wrote Romeo and Juliet?,William Shakespeare
+30,short_qa,How many minutes are in a day?,1440
+31,short_qa,What is the boiling point of water in degrees Celsius at sea level?,100
+32,short_qa,What is the difference between weather and climate?,"Short vs long-term; coherent, not rambling"
+33,short_qa,Why is the sky blue? Answer in two sentences.,Rayleigh scattering idea; exactly two sentences
+34,short_qa,What does CPU stand for?,Central Processing Unit
+35,writing,Write a two-sentence description of a rainy morning.,Two sentences; vivid; on topic
+36,writing,Write a short email asking my manager for a day off next Friday.,"Email shape (greeting, request, thanks); short"
+37,writing,Write a four-line poem about the ocean.,Four lines; on topic
+38,writing,Write a catchy slogan for a reusable water bottle.,One short slogan; not a paragraph
+39,writing,Write a short product description for a wireless mouse.,Two to four sentences; mentions plausible features
+40,writing,Describe your ideal weekend in three sentences.,Exactly three sentences
+41,writing,Write a thank-you note to a teacher.,Short note; polite; stops cleanly
+42,writing,Write a short motivational message for someone starting a new job.,Short; encouraging; no repetition
+43,constraints,Explain what a database is in exactly two sentences.,Exactly two sentences; accurate
+44,constraints,Describe the moon in one sentence using no more than 15 words.,One sentence; 15 words or fewer
+45,constraints,"List three fruits in alphabetical order, separated by commas, with no other text.",Three fruits; alphabetical; comma-separated; no extra text
+46,constraints,"Write a sentence about cats that includes the word ""midnight"".",One sentence; contains midnight
+47,constraints,"Answer with only ""yes"" or ""no"": Is the Pacific the largest ocean?",Output is just yes (or Yes)
+48,constraints,Explain recursion to a ten-year-old in under 50 words.,Under 50 words; simple language
+49,constraints,"Give two pros and two cons of working from home, as two labeled lists.","Labeled Pros and Cons lists, two items each"
+50,constraints,"Translate ""Good morning, how are you?"" into Spanish. Output only the translation.","Buenos dias, como estas? (or como esta usted); no extra text"
