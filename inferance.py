@@ -18,14 +18,17 @@ chat_template = """{%- for message in messages -%}
     {%- endif -%}
     {%- endfor -%}"""
 
-def load_model_and_tokenizer(load_checkpoint=False):
+def load_model(load_checkpoint=False):
     if load_checkpoint:
-        model = AutoModelForCausalLM.from_pretrained("saved_checkpoint", cache_dir=r"model").to(device)
+        model = AutoModelForCausalLM.from_pretrained("saved_checkpoint_final", cache_dir=r"model").to(device)
     else:
         model = AutoModelForCausalLM.from_pretrained("HuggingFaceTB/SmolLM2-135M", cache_dir=r"model").to(device)
+    return model
+
+def load_tokenizer():
     tokenizer = AutoTokenizer.from_pretrained("HuggingFaceTB/SmolLM2-135M", cache_dir=r"tokenizer")
     tokenizer.chat_template = chat_template
-    return model, tokenizer, device
+    return tokenizer
 
 def build_chat_messages(tokenizer, instruction, tokenize=True):
     tail = "<|im_start|>Assistant:"
@@ -41,7 +44,8 @@ def build_chat_messages(tokenizer, instruction, tokenize=True):
         return tokenizer.apply_chat_template(messages['messages'], tokenize=tokenize, truncation=True, max_length=MAX_LEN, return_tensors="pt")+tail
 
 def generate(model, tokenizer, instruction, return_only_answer=False, max_new_tokens=None):
-    input_ids = build_chat_messages(tokenizer, instruction, True)['input_ids'].to(device)
+    chat_messages = build_chat_messages(tokenizer, instruction, True)
+    input_ids = chat_messages['input_ids'].to(device)
     if max_new_tokens is not None:
         output_ids = model.generate(input_ids, max_new_tokens=max_new_tokens, stop_strings=["<|im_end|>"],   # a list is the documented form
     tokenizer=tokenizer).squeeze()
