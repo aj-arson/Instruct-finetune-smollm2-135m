@@ -45,9 +45,11 @@ with st.container(border=True, height="content", width="stretch"):
 
 if st.session_state.finetune_gen and st.session_state.finetune_gen:
      with st.spinner(text="Model analyzing input..."):
-          with ThreadPoolExecutor(max_workers = 2) as pool:
+        with ThreadPoolExecutor(max_workers = 2) as pool:
                finetuned_model_future = pool.submit(generate, finetuned_model, tokenizer, instruction, return_only_answer=True, max_new_tokens=st.session_state.max_new_tokens)
                base_model_future = pool.submit(generate, base_model, tokenizer, instruction, return_only_answer=True, max_new_tokens=st.session_state.max_new_tokens)
+               finetuned_model_future_result = finetuned_model_future.result()
+               base_model_future_result = base_model_future.result()
 
 if st.session_state.gen:
     with st.container(border=True, height="content", width="stretch"):
@@ -57,7 +59,7 @@ if st.session_state.gen:
             if st.session_state.finetune_gen:
                 with st.spinner(text="Model analyzing input..."):
                     # st.session_state.finetuned_model_reponse = generate(finetuned_model, tokenizer, instruction, return_only_answer=True, max_new_tokens=st.session_state.max_new_tokens)
-                    st.session_state.finetuned_model_reponse = finetuned_model_future.result()
+                    st.session_state.finetuned_model_reponse = finetuned_model_future_result
                     st.session_state.finetune_gen = None
 
                 if st.session_state.finetuned_model_reponse:
@@ -69,7 +71,7 @@ if st.session_state.gen:
                 if st.session_state.base_gen:
                     with st.spinner(text="Model analyzing input..."):
                         # st.session_state.base_model_reponse = generate(base_model, tokenizer, instruction, return_only_answer=True, max_new_tokens=st.session_state.max_new_tokens)
-                        st.session_state.base_model_reponse = base_model_future.result()
+                        st.session_state.base_model_reponse = base_model_future_result
                         st.session_state.base_gen = None
         
                     if st.session_state.base_model_reponse:
